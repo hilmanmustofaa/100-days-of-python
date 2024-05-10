@@ -1,6 +1,28 @@
- Notes during the first day
+## 1. Notes during the first day
 - We can print a string just simply using command 
-  ```
-  print("yourString")
-  ```
+  `print("yourString")`
 - A string is a sequence of characters enclosed in quotation marks. The quotation marks can be single (` ' `) or double (` “ `)
+- We can use triple quotes (`""" """`) in Python to define a long string that spans multiple lines. This syntax is particularly useful when we have a string that contains multiple line breaks or special characters.
+
+## 2. Errors
+One of the most common errors when using the `print()` function in Python is the SyntaxError. This error typically occurs when there's a mistake in the syntax of the `print()` statement. Here are a few common scenarios:
+- **Missing Parentheses:**Forgetting to include the parentheses in the `print()` statement
+  `print "Hello, World!"  # Missing parentheses`
+  To fix it, we need to add parentheses:
+  `print("Hello, World!")`
+- **Mismatched Quotes:** If you're using quotes within the `print()` statement, ensure they're properly matched.
+  `print('Hello, World!")  # Mismatched quotes`
+  Fix it by using consistent quotes:
+  `print('Hello, World!')`
+- **Incorrect Usage of Escape Characters:** Incorrectly using escape characters can lead to errors.
+  `print("This is a backslash: \")  # Incorrect usage of escape character`
+  You should either escape the backslash or use a different method:
+  `print("This is a backslash: \\")  # Escaping the backslash`
+  Or:
+  `print("This is a backslash: '")`
+- **Invalid Syntax Within the print() Statement:** Ensure that all the syntax within the `print()` statement is correct.
+  `print("Hello, World!"  # Missing closing parenthesis`
+  To fix it, we need to add the closing parenthesis:
+  `print("Hello, World!")`
+
+
