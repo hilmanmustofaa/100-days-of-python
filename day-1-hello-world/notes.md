@@ -6,7 +6,8 @@
 
 ## 2. Errors
 One of the most common errors when using the `print()` function in Python is the SyntaxError. This error typically occurs when there's a mistake in the syntax of the `print()` statement. Here are a few common scenarios:
-- **Missing Parentheses:** # Missing parentheses`<br>
+- **Missing Parentheses:** # Missing parentheses<br>
+  `print "Hello, World!"  # Missing parentheses`<br>
   To fix it, we need to add parentheses:<br>
   `print("Hello, World!")`
 - **Mismatched Quotes:** If you're using quotes within the `print()` statement, ensure they're properly matched.<br>
