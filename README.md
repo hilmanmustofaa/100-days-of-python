@@ -8,4 +8,4 @@ Feel free to follow along, learn with me, and see how I progress through the cha
 
 ## Table of Contents
 
-1. [Day 1: Introduction to Python](#day-1-hello-world)
+1. [Day 1: Introduction to Python](https://github.com/hilmanmustofaa/100-days-of-python/tree/main/day-1-hello-world)
