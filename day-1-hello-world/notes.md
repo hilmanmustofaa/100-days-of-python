@@ -6,23 +6,22 @@
 
 ## 2. Errors
 One of the most common errors when using the `print()` function in Python is the SyntaxError. This error typically occurs when there's a mistake in the syntax of the `print()` statement. Here are a few common scenarios:
-- **Missing Parentheses:**Forgetting to include the parentheses in the `print()` statement
-  `print "Hello, World!"  # Missing parentheses`
-  To fix it, we need to add parentheses:
+- **Missing Parentheses:** # Missing parentheses`<br>
+  To fix it, we need to add parentheses:<br>
   `print("Hello, World!")`
-- **Mismatched Quotes:** If you're using quotes within the `print()` statement, ensure they're properly matched.
-  `print('Hello, World!")  # Mismatched quotes`
-  Fix it by using consistent quotes:
+- **Mismatched Quotes:** If you're using quotes within the `print()` statement, ensure they're properly matched.<br>
+  `print('Hello, World!")  # Mismatched quotes`<br>
+  Fix it by using consistent quotes:<br>
   `print('Hello, World!')`
-- **Incorrect Usage of Escape Characters:** Incorrectly using escape characters can lead to errors.
-  `print("This is a backslash: \")  # Incorrect usage of escape character`
-  You should either escape the backslash or use a different method:
-  `print("This is a backslash: \\")  # Escaping the backslash`
-  Or:
-  `print("This is a backslash: '")`
-- **Invalid Syntax Within the print() Statement:** Ensure that all the syntax within the `print()` statement is correct.
-  `print("Hello, World!"  # Missing closing parenthesis`
-  To fix it, we need to add the closing parenthesis:
+- **Incorrect Usage of Escape Characters:** Incorrectly using escape characters can lead to errors.<br>
+  `print("This is a backslash: \")  # Incorrect usage of escape character`<br>
+  You should either escape the backslash or use a different method:<br>
+  `print("This is a backslash: \\")  # Escaping the backslash`<br>
+  Or:<br>
+  `print("This is a backslash: '")`<br>
+- **Invalid Syntax Within the print() Statement:** Ensure that all the syntax within the `print()` statement is correct.<br>
+  `print("Hello, World!"  # Missing closing parenthesis`<br>
+  To fix it, we need to add the closing parenthesis:<br>
   `print("Hello, World!")`
 
 
